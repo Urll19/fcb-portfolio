@@ -47,9 +47,18 @@ body {
 /* vh - viewport height = visible part of the page */
 /* flex aligns the elements in one row, column puts it in a vertical column */
 #landing {
-	height: 80vh;
+	height: 100vh;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
 	align-items: center;
+}
+
+
+/*check html code, this is for selecting images within the carousel only, should contain the same name*/
+.carousel-item img{
+	display: block;
+	margin: auto;
+	max-width: 100%;
+	height: auto;
 }
